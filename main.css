@@ -1,0 +1,55 @@
+#ligthbox{
+    display:block;
+    height:60%;
+    width:100%;
+    background: url('./img/casa1.jpg');
+
+
+
+
+
+
+    
+}
+
+
+#galeria{
+    display:flex;
+    gap:1rem;
+    flex-wrap: wrap;
+
+
+}
+
+.imagen-galeria{
+    position:relative;
+    
+
+
+}
+
+
+.imagen-galeria > img :first-child{
+    height:200px;
+}
+
+.aspa-eliminar{
+    width:30px;
+    position:absolute;
+    top:5px;
+    right:5px;
+}
+
+
+#container{
+    max-width:1000px;
+    position:relative;
+    margin:auto;
+}
+
+
+
+/*
+explicarle a oscar mi idea seria hacer como otro contenedor donde esten las imagenes 
+y tu cliques y se abran en el slide
+*/
